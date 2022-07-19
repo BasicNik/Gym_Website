@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img class="logo" src="Images/logo3.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Exercises</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-circle-chevron-down" onclick="showMenu()"></i>
+    </nav>   
+<div class="text-box">
+    <h1>World's Best Gym</h1>
+    <p>  Fitness Club is one of the best fitness companies in the world
+         The company offers more than 200 different group 
+         classes weekly, giving room for busy people to catch up. 
+         Interestingly, it also has branches located in a few other countries, 
+         including South Africa, Italy, England, Australia, Botswana, Namibia, 
+         and Thailand. Fitness Club is on the list of top 10 best gyms in the 
+         world because of its amazing facility and classes.</p>
+    <a href="" class="link-button">Visit us to know more</a>
+</div>
+</section>
+
+
+<!-- -----------------------Exercises -->
+<section class="exerc">
+    <h1>Exercises We Include!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Beginner</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare enim luctus enim tristique imperdiet. Pellentesque posuere mauris vitae velit mattis, sit amet placerat mi dignissim.</p>
+        </div>
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare enim luctus enim tristique imperdiet. Pellentesque posuere mauris vitae velit mattis, sit amet placerat mi dignissim.</p>
+        </div>
+        <div class="course-col">
+            <h3>Advanced</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare enim luctus enim tristique imperdiet. Pellentesque posuere mauris vitae velit mattis, sit amet placerat mi dignissim.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ---------------------About--- -->
+<section class="campus">
+    <h1>Our Motive!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare enim luctus enim tristique imperdiet. Pellentesque posuere mauris vitae velit mattis, sit amet placerat mi dignissim.</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="Images/london.jpg">
+            <div class="layer">
+                <h3>London</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="Images/new-york.jpg">
+            <div class="layer">
+                <h3>New York</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="Images/dehradun.jpg">
+            <div class="layer">
+                <h3>Dehradun</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Javascript For Toggle Menu -->
+<script>
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu()
+    {
+        navlinks.style.right="0";
+    }
+
+    function hideMenu()
+    {
+        navlinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
